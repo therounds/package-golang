@@ -39,7 +39,7 @@
 
 Name:           golang
 Version:        1.3.3
-Release:        1%{?dist}
+Release:        %{__tr_release_num}%{?dist}
 Summary:        The Go Programming Language
 
 License:        BSD
